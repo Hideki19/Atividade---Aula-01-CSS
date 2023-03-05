@@ -1,6 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .pai{
     width: 500px;
-    height:fit-content;
+    height: 250px;
     background-color: #AAAAAA;
     padding: 1%;
     margin: 10px;
@@ -12,7 +18,7 @@
 .filho{
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: none;
     border-radius: 50%;
 }
 
